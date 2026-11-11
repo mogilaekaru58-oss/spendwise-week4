@@ -1,62 +1,55 @@
-# SpendWise - JavaScript Foundation
+# SpendWise - Budget Tracking Dashboard
 
 ## Project Description
 
-SpendWise is a budget tracking web application that helps users manage their budget and expenses. JavaScript was added to the existing SpendWise interface to collect data, perform calculations, and display results in the browser console.
+SpendWise is a responsive budget tracking web application that helps users manage their monthly budgets and monitor their expenses. Users can enter a budget, add expenses, view total spending, and track their remaining balance.
 
-## JavaScript Concepts Implemented
+## Technologies Used
 
-The project demonstrates variables, data types, user input, number conversion, arithmetic calculations, functions, return values, and console output.
+- HTML5
+- CSS3
+- JavaScript
+- Git and GitHub
+- Netlify
 
-## How Variables Are Used
+## GitHub Repository Information
 
-Variables store budget and expense information.
+Repository Name: spendwise-week4
 
-Example:
+GitHub Repository:
+https://github.com/mogilaekaru58-oss/spendwise-week4
 
-let budget = prompt("Enter your budget:");
-let expenses = prompt("Enter your total expenses:");
+## Live Netlify Website
 
-The application also stores values entered by the user.
+Website URL: To be added after successful deployment.
 
-## How User Input Is Collected
+## Deployment Process Summary
 
-The application uses prompt() to collect the user's budget and expenses.
+1. Organized the project files, including HTML, CSS, JavaScript and README.
+2. Uploaded the project to a public GitHub repository.
+3. Connected the GitHub repository to Netlify.
+4. Configured Netlify to deploy the website.
+5. Selected a custom Netlify site name.
+6. Tested automatic deployment by updating the project and pushing changes to GitHub.
+7. Tested the live website to confirm that its files and functionality work correctly.
 
-Example:
+## Challenges Encountered During Deployment
 
-let userBudget = prompt("Enter your budget:");
-let userExpenses = prompt("Enter your total expenses:");
+- Preparing the project files for online hosting.
+- Configuring the connection between GitHub and Netlify.
+- Resolving development environment issues in Termux.
+- Verifying that automatic deployments work correctly.
 
-The input is converted from strings to numbers using Number().
+## Lessons Learned
 
-## How Calculations Are Performed
-
-SpendWise calculates the remaining balance by subtracting expenses from the budget.
-
-Example:
-
-40000 - 12000 = 28000
-
-## How Functions Organize the Code
-
-The calculateBalance() function performs the budget calculation and returns the remaining balance.
-
-Example:
-
-function calculateBalance(budget, expenses) {
-    return budget - expenses;
-}
-
-This makes the calculation reusable with different values.
-
-## Displaying Results
-
-The application displays the budget, expenses, and remaining balance in the browser console using console.log().
+- How to publish a website using Netlify.
+- How GitHub supports version control and website deployment.
+- How continuous deployment automatically publishes updates.
+- The importance of testing a website after deployment.
 
 ## Project Files
 
-- index.html - Webpage structure
-- style.css - Webpage styling
-- script.js - JavaScript logic and calculations
-- README.md - Project documentation
+- index.html - Website structure.
+- style.css - Website styling and responsive layout.
+- script.js - Budget calculations and expense management.
+- README.md - Project documentation.
